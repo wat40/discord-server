@@ -4909,3 +4909,255 @@
 [2025-05-31T21:29:34.296Z] [ERROR] Failed to start bot: {
   "code": "TokenInvalid"
 }
+[2025-05-31T21:34:42.219Z] [INFO] Loaded command: 8ball
+[2025-05-31T21:34:42.228Z] [INFO] Loaded command: dice
+[2025-05-31T21:34:42.231Z] [INFO] Loaded command: poll
+[2025-05-31T21:34:42.234Z] [INFO] Loaded command: quote
+[2025-05-31T21:34:42.237Z] [INFO] Loaded command: leaderboard
+[2025-05-31T21:34:42.240Z] [INFO] Loaded command: level
+[2025-05-31T21:34:42.244Z] [INFO] Loaded command: ban
+[2025-05-31T21:34:42.247Z] [INFO] Loaded command: kick
+[2025-05-31T21:34:42.252Z] [INFO] Loaded command: lockdown
+[2025-05-31T21:34:42.257Z] [INFO] Loaded command: mass
+[2025-05-31T21:34:42.260Z] [INFO] Loaded command: purge
+[2025-05-31T21:34:42.263Z] [INFO] Loaded command: slowmode
+[2025-05-31T21:34:42.266Z] [INFO] Loaded command: timeout
+[2025-05-31T21:34:42.270Z] [INFO] Loaded command: unban
+[2025-05-31T21:34:42.277Z] [INFO] Loaded command: warn
+[2025-05-31T21:34:42.285Z] [INFO] Loaded command: warnings
+[2025-05-31T21:34:42.291Z] [INFO] Loaded command: config
+[2025-05-31T21:34:42.294Z] [INFO] Loaded command: setup
+[2025-05-31T21:34:42.297Z] [INFO] Loaded command: ticket
+[2025-05-31T21:34:42.300Z] [INFO] Loaded command: avatar
+[2025-05-31T21:34:42.303Z] [INFO] Loaded command: help
+[2025-05-31T21:34:42.306Z] [INFO] Loaded command: notes
+[2025-05-31T21:34:42.310Z] [INFO] Loaded command: remind
+[2025-05-31T21:34:42.313Z] [INFO] Loaded command: role
+[2025-05-31T21:34:42.316Z] [INFO] Loaded command: serverinfo
+[2025-05-31T21:34:42.320Z] [INFO] Loaded command: tag
+[2025-05-31T21:34:42.323Z] [INFO] Loaded command: userinfo
+[2025-05-31T21:34:42.327Z] [INFO] Loaded event: guildMemberAdd
+[2025-05-31T21:34:42.329Z] [INFO] Loaded event: interactionCreate
+[2025-05-31T21:34:42.331Z] [INFO] Loaded event: messageCreate
+[2025-05-31T21:34:42.333Z] [INFO] Loaded event: messageReactionAdd
+[2025-05-31T21:34:42.335Z] [INFO] Loaded event: ready
+[2025-05-31T21:34:42.335Z] [INFO] Loaded event: undefined
+[2025-05-31T21:34:42.342Z] [INFO] Connected to SQLite database
+[2025-05-31T21:34:42.349Z] [INFO] Base database tables created successfully
+[2025-05-31T21:34:42.352Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:34:42.353Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:34:42.354Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS setup_history (
+       ...
+[2025-05-31T21:34:42.355Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS verification_logs (
+   ...
+[2025-05-31T21:34:42.356Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS reaction_roles (
+      ...
+[2025-05-31T21:34:42.357Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS member_logs (
+         ...
+[2025-05-31T21:34:42.357Z] [SUCCESS] All database tables created and migrated successfully
+[2025-05-31T21:34:42.358Z] [INFO] Database initialized successfully
+[2025-05-31T21:34:42.672Z] [ERROR] Failed to start bot: {
+  "code": "TokenInvalid"
+}
+[2025-05-31T21:35:02.624Z] [INFO] Loaded command: 8ball
+[2025-05-31T21:35:02.630Z] [INFO] Loaded command: dice
+[2025-05-31T21:35:02.632Z] [INFO] Loaded command: poll
+[2025-05-31T21:35:02.634Z] [INFO] Loaded command: quote
+[2025-05-31T21:35:02.636Z] [INFO] Loaded command: leaderboard
+[2025-05-31T21:35:02.637Z] [INFO] Loaded command: level
+[2025-05-31T21:35:02.640Z] [INFO] Loaded command: ban
+[2025-05-31T21:35:02.642Z] [INFO] Loaded command: kick
+[2025-05-31T21:35:02.645Z] [INFO] Loaded command: lockdown
+[2025-05-31T21:35:02.648Z] [INFO] Loaded command: mass
+[2025-05-31T21:35:02.650Z] [INFO] Loaded command: purge
+[2025-05-31T21:35:02.652Z] [INFO] Loaded command: slowmode
+[2025-05-31T21:35:02.654Z] [INFO] Loaded command: timeout
+[2025-05-31T21:35:02.656Z] [INFO] Loaded command: unban
+[2025-05-31T21:35:02.657Z] [INFO] Loaded command: warn
+[2025-05-31T21:35:02.660Z] [INFO] Loaded command: warnings
+[2025-05-31T21:35:02.663Z] [INFO] Loaded command: config
+[2025-05-31T21:35:02.665Z] [INFO] Loaded command: setup
+[2025-05-31T21:35:02.667Z] [INFO] Loaded command: ticket
+[2025-05-31T21:35:02.669Z] [INFO] Loaded command: avatar
+[2025-05-31T21:35:02.671Z] [INFO] Loaded command: help
+[2025-05-31T21:35:02.674Z] [INFO] Loaded command: notes
+[2025-05-31T21:35:02.676Z] [INFO] Loaded command: remind
+[2025-05-31T21:35:02.678Z] [INFO] Loaded command: role
+[2025-05-31T21:35:02.680Z] [INFO] Loaded command: serverinfo
+[2025-05-31T21:35:02.682Z] [INFO] Loaded command: tag
+[2025-05-31T21:35:02.684Z] [INFO] Loaded command: userinfo
+[2025-05-31T21:35:02.686Z] [INFO] Loaded event: guildMemberAdd
+[2025-05-31T21:35:02.687Z] [INFO] Loaded event: interactionCreate
+[2025-05-31T21:35:02.689Z] [INFO] Loaded event: messageCreate
+[2025-05-31T21:35:02.690Z] [INFO] Loaded event: messageReactionAdd
+[2025-05-31T21:35:02.691Z] [INFO] Loaded event: ready
+[2025-05-31T21:35:02.692Z] [INFO] Loaded event: undefined
+[2025-05-31T21:35:02.694Z] [INFO] Connected to SQLite database
+[2025-05-31T21:35:02.698Z] [INFO] Base database tables created successfully
+[2025-05-31T21:35:02.700Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:35:02.701Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:35:02.702Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS setup_history (
+       ...
+[2025-05-31T21:35:02.703Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS verification_logs (
+   ...
+[2025-05-31T21:35:02.704Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS reaction_roles (
+      ...
+[2025-05-31T21:35:02.705Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS member_logs (
+         ...
+[2025-05-31T21:35:02.705Z] [SUCCESS] All database tables created and migrated successfully
+[2025-05-31T21:35:02.705Z] [INFO] Database initialized successfully
+[2025-05-31T21:35:02.981Z] [ERROR] Failed to start bot: {
+  "code": "TokenInvalid"
+}
+[2025-05-31T21:35:09.737Z] [INFO] Loaded command: 8ball
+[2025-05-31T21:35:09.742Z] [INFO] Loaded command: dice
+[2025-05-31T21:35:09.745Z] [INFO] Loaded command: poll
+[2025-05-31T21:35:09.747Z] [INFO] Loaded command: quote
+[2025-05-31T21:35:09.750Z] [INFO] Loaded command: leaderboard
+[2025-05-31T21:35:09.754Z] [INFO] Loaded command: level
+[2025-05-31T21:35:09.758Z] [INFO] Loaded command: ban
+[2025-05-31T21:35:09.761Z] [INFO] Loaded command: kick
+[2025-05-31T21:35:09.764Z] [INFO] Loaded command: lockdown
+[2025-05-31T21:35:09.768Z] [INFO] Loaded command: mass
+[2025-05-31T21:35:09.770Z] [INFO] Loaded command: purge
+[2025-05-31T21:35:09.772Z] [INFO] Loaded command: slowmode
+[2025-05-31T21:35:09.775Z] [INFO] Loaded command: timeout
+[2025-05-31T21:35:09.779Z] [INFO] Loaded command: unban
+[2025-05-31T21:35:09.781Z] [INFO] Loaded command: warn
+[2025-05-31T21:35:09.784Z] [INFO] Loaded command: warnings
+[2025-05-31T21:35:09.787Z] [INFO] Loaded command: config
+[2025-05-31T21:35:09.790Z] [INFO] Loaded command: setup
+[2025-05-31T21:35:09.793Z] [INFO] Loaded command: ticket
+[2025-05-31T21:35:09.797Z] [INFO] Loaded command: avatar
+[2025-05-31T21:35:09.799Z] [INFO] Loaded command: help
+[2025-05-31T21:35:09.801Z] [INFO] Loaded command: notes
+[2025-05-31T21:35:09.804Z] [INFO] Loaded command: remind
+[2025-05-31T21:35:09.807Z] [INFO] Loaded command: role
+[2025-05-31T21:35:09.809Z] [INFO] Loaded command: serverinfo
+[2025-05-31T21:35:09.814Z] [INFO] Loaded command: tag
+[2025-05-31T21:35:09.815Z] [INFO] Loaded command: userinfo
+[2025-05-31T21:35:09.817Z] [INFO] Loaded event: guildMemberAdd
+[2025-05-31T21:35:09.819Z] [INFO] Loaded event: interactionCreate
+[2025-05-31T21:35:09.821Z] [INFO] Loaded event: messageCreate
+[2025-05-31T21:35:09.824Z] [INFO] Loaded event: messageReactionAdd
+[2025-05-31T21:35:09.827Z] [INFO] Loaded event: ready
+[2025-05-31T21:35:09.828Z] [INFO] Loaded event: undefined
+[2025-05-31T21:35:09.832Z] [INFO] Connected to SQLite database
+[2025-05-31T21:35:09.836Z] [INFO] Base database tables created successfully
+[2025-05-31T21:35:09.838Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:35:09.839Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:35:09.841Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS setup_history (
+       ...
+[2025-05-31T21:35:09.842Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS verification_logs (
+   ...
+[2025-05-31T21:35:09.843Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS reaction_roles (
+      ...
+[2025-05-31T21:35:09.844Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS member_logs (
+         ...
+[2025-05-31T21:35:09.846Z] [SUCCESS] All database tables created and migrated successfully
+[2025-05-31T21:35:09.846Z] [INFO] Database initialized successfully
+[2025-05-31T21:35:10.116Z] [ERROR] Failed to start bot: {
+  "code": "TokenInvalid"
+}
+[2025-05-31T21:35:37.189Z] [INFO] Loaded command: 8ball
+[2025-05-31T21:35:37.194Z] [INFO] Loaded command: dice
+[2025-05-31T21:35:37.197Z] [INFO] Loaded command: poll
+[2025-05-31T21:35:37.200Z] [INFO] Loaded command: quote
+[2025-05-31T21:35:37.202Z] [INFO] Loaded command: leaderboard
+[2025-05-31T21:35:37.205Z] [INFO] Loaded command: level
+[2025-05-31T21:35:37.207Z] [INFO] Loaded command: ban
+[2025-05-31T21:35:37.210Z] [INFO] Loaded command: kick
+[2025-05-31T21:35:37.216Z] [INFO] Loaded command: lockdown
+[2025-05-31T21:35:37.222Z] [INFO] Loaded command: mass
+[2025-05-31T21:35:37.230Z] [INFO] Loaded command: purge
+[2025-05-31T21:35:37.273Z] [INFO] Loaded command: slowmode
+[2025-05-31T21:35:37.320Z] [INFO] Loaded command: timeout
+[2025-05-31T21:35:37.325Z] [INFO] Loaded command: unban
+[2025-05-31T21:35:37.329Z] [INFO] Loaded command: warn
+[2025-05-31T21:35:37.344Z] [INFO] Loaded command: warnings
+[2025-05-31T21:35:37.353Z] [INFO] Loaded command: config
+[2025-05-31T21:35:37.357Z] [INFO] Loaded command: setup
+[2025-05-31T21:35:37.360Z] [INFO] Loaded command: ticket
+[2025-05-31T21:35:37.365Z] [INFO] Loaded command: avatar
+[2025-05-31T21:35:37.368Z] [INFO] Loaded command: help
+[2025-05-31T21:35:37.371Z] [INFO] Loaded command: notes
+[2025-05-31T21:35:37.374Z] [INFO] Loaded command: remind
+[2025-05-31T21:35:37.377Z] [INFO] Loaded command: role
+[2025-05-31T21:35:37.381Z] [INFO] Loaded command: serverinfo
+[2025-05-31T21:35:37.385Z] [INFO] Loaded command: tag
+[2025-05-31T21:35:37.388Z] [INFO] Loaded command: userinfo
+[2025-05-31T21:35:37.391Z] [INFO] Loaded event: guildMemberAdd
+[2025-05-31T21:35:37.393Z] [INFO] Loaded event: interactionCreate
+[2025-05-31T21:35:37.396Z] [INFO] Loaded event: messageCreate
+[2025-05-31T21:35:37.401Z] [INFO] Loaded event: messageReactionAdd
+[2025-05-31T21:35:37.403Z] [INFO] Loaded event: ready
+[2025-05-31T21:35:37.404Z] [INFO] Loaded event: undefined
+[2025-05-31T21:35:37.408Z] [INFO] Connected to SQLite database
+[2025-05-31T21:35:37.414Z] [INFO] Base database tables created successfully
+[2025-05-31T21:35:37.418Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:35:37.419Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:35:37.421Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS setup_history (
+       ...
+[2025-05-31T21:35:37.422Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS verification_logs (
+   ...
+[2025-05-31T21:35:37.423Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS reaction_roles (
+      ...
+[2025-05-31T21:35:37.425Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS member_logs (
+         ...
+[2025-05-31T21:35:37.426Z] [SUCCESS] All database tables created and migrated successfully
+[2025-05-31T21:35:37.426Z] [INFO] Database initialized successfully
+[2025-05-31T21:35:37.427Z] [ERROR] Failed to start bot: {
+  "code": "TokenInvalid"
+}
+[2025-05-31T21:37:34.235Z] [INFO] Loaded command: 8ball
+[2025-05-31T21:37:34.245Z] [INFO] Loaded command: dice
+[2025-05-31T21:37:34.248Z] [INFO] Loaded command: poll
+[2025-05-31T21:37:34.254Z] [INFO] Loaded command: quote
+[2025-05-31T21:37:34.257Z] [INFO] Loaded command: leaderboard
+[2025-05-31T21:37:34.259Z] [INFO] Loaded command: level
+[2025-05-31T21:37:34.262Z] [INFO] Loaded command: ban
+[2025-05-31T21:37:34.265Z] [INFO] Loaded command: kick
+[2025-05-31T21:37:34.269Z] [INFO] Loaded command: lockdown
+[2025-05-31T21:37:34.276Z] [INFO] Loaded command: mass
+[2025-05-31T21:37:34.279Z] [INFO] Loaded command: purge
+[2025-05-31T21:37:34.284Z] [INFO] Loaded command: slowmode
+[2025-05-31T21:37:34.287Z] [INFO] Loaded command: timeout
+[2025-05-31T21:37:34.290Z] [INFO] Loaded command: unban
+[2025-05-31T21:37:34.292Z] [INFO] Loaded command: warn
+[2025-05-31T21:37:34.296Z] [INFO] Loaded command: warnings
+[2025-05-31T21:37:34.303Z] [INFO] Loaded command: config
+[2025-05-31T21:37:34.306Z] [INFO] Loaded command: setup
+[2025-05-31T21:37:34.309Z] [INFO] Loaded command: ticket
+[2025-05-31T21:37:34.312Z] [INFO] Loaded command: avatar
+[2025-05-31T21:37:34.315Z] [INFO] Loaded command: help
+[2025-05-31T21:37:34.320Z] [INFO] Loaded command: notes
+[2025-05-31T21:37:34.323Z] [INFO] Loaded command: remind
+[2025-05-31T21:37:34.326Z] [INFO] Loaded command: role
+[2025-05-31T21:37:34.328Z] [INFO] Loaded command: serverinfo
+[2025-05-31T21:37:34.333Z] [INFO] Loaded command: tag
+[2025-05-31T21:37:34.336Z] [INFO] Loaded command: userinfo
+[2025-05-31T21:37:34.338Z] [INFO] Loaded event: guildMemberAdd
+[2025-05-31T21:37:34.341Z] [INFO] Loaded event: interactionCreate
+[2025-05-31T21:37:34.343Z] [INFO] Loaded event: messageCreate
+[2025-05-31T21:37:34.346Z] [INFO] Loaded event: messageReactionAdd
+[2025-05-31T21:37:34.348Z] [INFO] Loaded event: ready
+[2025-05-31T21:37:34.349Z] [INFO] Loaded event: undefined
+[2025-05-31T21:37:34.352Z] [INFO] Connected to SQLite database
+[2025-05-31T21:37:34.356Z] [INFO] Base database tables created successfully
+[2025-05-31T21:37:34.359Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:37:34.361Z] [WARN] Migration failed (this may be normal): SQLITE_ERROR: Cannot add a column with non-constant default
+[2025-05-31T21:37:34.365Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS setup_history (
+       ...
+[2025-05-31T21:37:34.367Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS verification_logs (
+   ...
+[2025-05-31T21:37:34.368Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS reaction_roles (
+      ...
+[2025-05-31T21:37:34.370Z] [INFO] Migration executed: CREATE TABLE IF NOT EXISTS member_logs (
+         ...
+[2025-05-31T21:37:34.371Z] [SUCCESS] All database tables created and migrated successfully
+[2025-05-31T21:37:34.371Z] [INFO] Database initialized successfully
+[2025-05-31T21:37:35.325Z] [INFO] ModuBot is starting up...
+[2025-05-31T21:37:35.413Z] [SUCCESS] ModuBot is ready! Logged in as ModuBot#2784
+[2025-05-31T21:37:35.414Z] [INFO] Serving 1 servers with 1 users
+[2025-05-31T21:37:35.415Z] [INFO] Connected to guild: ModuBot Community Server (1378472853028208700) - 3 members
+[2025-05-31T21:37:35.416Z] [INFO] Reminder system started
