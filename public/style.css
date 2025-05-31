@@ -1,0 +1,393 @@
+/* ModuBot Dashboard Styles */
+
+:root {
+    --discord-blurple: #5865F2;
+    --discord-dark: #2C2F33;
+    --success-green: #57F287;
+    --warning-yellow: #FEE75C;
+    --error-red: #ED4245;
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --glass-bg: rgba(255, 255, 255, 0.95);
+    --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --glass-bg: rgba(44, 47, 51, 0.95);
+        --glass-border: rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* Base styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--gradient-primary);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.navbar {
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--glass-border);
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--discord-blurple) !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #4752C4 !important;
+}
+
+/* Cards */
+.card {
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-discord {
+    background: var(--discord-blurple);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-discord:hover {
+    background: #4752C4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(88, 101, 242, 0.4);
+    color: white;
+}
+
+.btn-discord:active {
+    transform: translateY(0);
+}
+
+/* Stats cards */
+.stats-card {
+    background: var(--gradient-primary);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.stats-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.stats-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+/* Sidebar */
+.sidebar {
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-right: 1px solid var(--glass-border);
+    min-height: calc(100vh - 76px);
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link {
+    color: #6c757d;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background: var(--discord-blurple);
+    color: white;
+    transform: translateX(5px);
+}
+
+.sidebar .nav-link i {
+    width: 20px;
+    text-align: center;
+}
+
+/* Main content */
+.main-content {
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+/* Guild cards */
+.guild-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.guild-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.guild-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.guild-card:hover .guild-icon {
+    transform: scale(1.1);
+}
+
+/* Status badges */
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.status-online {
+    background: rgba(87, 242, 135, 0.2);
+    color: var(--success-green);
+    border: 1px solid rgba(87, 242, 135, 0.3);
+}
+
+.status-offline {
+    background: rgba(237, 66, 69, 0.2);
+    color: var(--error-red);
+    border: 1px solid rgba(237, 66, 69, 0.3);
+}
+
+/* Feature icons */
+.feature-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--discord-blurple);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.feature-icon:hover {
+    transform: scale(1.1) rotate(5deg);
+    background: #4752C4;
+}
+
+/* Progress bars */
+.progress {
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.progress-bar {
+    transition: width 0.6s ease;
+    border-radius: 10px;
+}
+
+.progress-height {
+    height: 6px;
+}
+
+.progress-width-full {
+    width: 100%;
+}
+
+/* Footer */
+.footer {
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--glass-border);
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+/* Hidden elements */
+.hidden {
+    display: none !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    
+    .main-content {
+        padding: 1rem;
+    }
+    
+    .stats-number {
+        font-size: 2rem !important;
+    }
+    
+    .feature-icon {
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 1.2rem !important;
+    }
+    
+    .guild-icon {
+        width: 48px !important;
+        height: 48px !important;
+    }
+    
+    .card-body {
+        padding: 1rem !important;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem !important;
+    }
+    
+    .hero-content .lead {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .stats-number {
+        font-size: 1.8rem !important;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem !important;
+    }
+    
+    .btn-lg {
+        padding: 0.75rem 1.5rem !important;
+        font-size: 1rem !important;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .card {
+        background: rgba(44, 47, 51, 0.95) !important;
+        color: #dcddde;
+    }
+    
+    .navbar {
+        background: rgba(44, 47, 51, 0.95) !important;
+    }
+    
+    .sidebar {
+        background: rgba(44, 47, 51, 0.95) !important;
+    }
+    
+    .text-muted {
+        color: #72767d !important;
+    }
+    
+    .list-group-item {
+        background: rgba(54, 57, 63, 0.8) !important;
+        border-color: rgba(255, 255, 255, 0.1) !important;
+        color: #dcddde !important;
+    }
+}
+
+/* Utility classes */
+.text-discord {
+    color: var(--discord-blurple) !important;
+}
+
+.bg-discord {
+    background-color: var(--discord-blurple) !important;
+}
+
+.border-discord {
+    border-color: var(--discord-blurple) !important;
+}
+
+.shadow-discord {
+    box-shadow: 0 4px 12px rgba(88, 101, 242, 0.3) !important;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.fade-in {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.slide-in {
+    animation: slideInLeft 0.5s ease-out;
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
